@@ -10,8 +10,10 @@ public abstract class Azzardo {
 	public abstract void lancio();
 
 	public long getRisultato() {
+		return risultato;
 	}
 	
 	public String toString() {
+		return String.valueOf(getRisultato());
 	}
 }
