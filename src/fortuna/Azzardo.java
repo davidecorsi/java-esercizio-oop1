@@ -4,8 +4,8 @@ import java.util.Random;
 
 public abstract class Azzardo {
 	
-	protected int risultato;
-	protected Random random = new Random();
+	int risultato;
+	Random random = new Random();
 	
 	public abstract void lancio();
 
